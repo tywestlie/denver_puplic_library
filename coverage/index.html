@@ -5,7 +5,7 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <script src='./assets/0.10.2/application.js' type='text/javascript'></script>    
     <link href='./assets/0.10.2/application.css' media='screen, projection, print' rel='stylesheet' type='text/css'>
-    <link rel="shortcut icon" type="image/png" href="./assets/0.10.2/favicon_green.png" />
+    <link rel="shortcut icon" type="image/png" href="./assets/0.10.2/favicon_red.png" />
     <link rel="icon" type="image/png" href="./assets/0.10.2/favicon.png" />
   </head>
   
@@ -14,27 +14,27 @@
       <img src="./assets/0.10.2/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2018-04-11T10:44:59-06:00">2018-04-11T10:44:59-06:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2018-04-11T10:51:25-06:00">2018-04-11T10:51:25-06:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
         <div class="file_list_container" id="AllFiles">
   <h2>
     <span class="group_name">All Files</span>
-    (<span class="covered_percent"><span class="green">100.0%</span></span>
+    (<span class="covered_percent"><span class="red">73.49%</span></span>
      covered at
      <span class="covered_strength">
-       <span class="green">
-         1.74
+       <span class="red">
+         0.94
        </span>
     </span> hits/line)
   </h2>
   <a name="AllFiles"></a>
   <div>
     <b>5</b> files in total.
-    <b>82</b> relevant lines. 
-    <span class="green"><b>82</b> lines covered</span> and
-    <span class="red"><b>0</b> lines missed </span>
+    <b>83</b> relevant lines. 
+    <span class="green"><b>61</b> lines covered</span> and
+    <span class="red"><b>22</b> lines missed </span>
   </div>
   <table class="file_list">
     <thead>
@@ -57,17 +57,17 @@
         <td>13</td>
         <td>13</td>
         <td>0</td>
-        <td>4.1</td>
+        <td>2.1</td>
       </tr>
       
       <tr>
         <td class="strong"><a href="#39a2aa1319b98c8c534501bca4ee17aeb83da306" class="src_link" title="lib/book.rb">lib/book.rb</a></td>
-        <td class="green strong">100.0 %</td>
+        <td class="red strong">66.67 %</td>
         <td>23</td>
         <td>12</td>
-        <td>12</td>
-        <td>0</td>
-        <td>2.3</td>
+        <td>8</td>
+        <td>4</td>
+        <td>0.8</td>
       </tr>
       
       <tr>
@@ -77,27 +77,27 @@
         <td>7</td>
         <td>7</td>
         <td>0</td>
-        <td>1.7</td>
+        <td>1.4</td>
       </tr>
       
       <tr>
         <td class="strong"><a href="#86aa33bf86b9e48b1f0b0d7db2f6c1a7514ec13a" class="src_link" title="test/book_test.rb">test/book_test.rb</a></td>
-        <td class="green strong">100.0 %</td>
+        <td class="red strong">50.0 %</td>
         <td>33</td>
         <td>20</td>
-        <td>20</td>
-        <td>0</td>
-        <td>1.0</td>
+        <td>10</td>
+        <td>10</td>
+        <td>0.5</td>
       </tr>
       
       <tr>
         <td class="strong"><a href="#9be80f4ea91e1242d7681f76f1fd3805b9b65327" class="src_link" title="test/library_test.rb">test/library_test.rb</a></td>
-        <td class="green strong">100.0 %</td>
-        <td>45</td>
-        <td>30</td>
-        <td>30</td>
-        <td>0</td>
-        <td>1.0</td>
+        <td class="red strong">74.19 %</td>
+        <td>47</td>
+        <td>31</td>
+        <td>23</td>
+        <td>8</td>
+        <td>0.7</td>
       </tr>
       
     </tbody>
@@ -160,14 +160,14 @@
           <code class="ruby">  def initialize(authors)</code>
         </li>
       
-        <li class="covered" data-hits="6" data-linenumber="6">
-          <span class="hits">6</span>
+        <li class="covered" data-hits="2" data-linenumber="6">
+          <span class="hits">2</span>
           
           <code class="ruby">    @authors = authors</code>
         </li>
       
-        <li class="covered" data-hits="6" data-linenumber="7">
-          <span class="hits">6</span>
+        <li class="covered" data-hits="2" data-linenumber="7">
+          <span class="hits">2</span>
           
           <code class="ruby">    @books = []</code>
         </li>
@@ -190,38 +190,38 @@
           <code class="ruby">  def add_book(title, date)</code>
         </li>
       
-        <li class="covered" data-hits="6" data-linenumber="11">
-          <span class="hits">6</span>
+        <li class="covered" data-hits="3" data-linenumber="11">
+          <span class="hits">3</span>
           
           <code class="ruby">    new_book = Book.new(Hash.new)</code>
         </li>
       
-        <li class="covered" data-hits="6" data-linenumber="12">
-          <span class="hits">6</span>
+        <li class="covered" data-hits="3" data-linenumber="12">
+          <span class="hits">3</span>
           
           <code class="ruby">    new_book.books[:author_first_name] = @authors[:first_name]</code>
         </li>
       
-        <li class="covered" data-hits="6" data-linenumber="13">
-          <span class="hits">6</span>
+        <li class="covered" data-hits="3" data-linenumber="13">
+          <span class="hits">3</span>
           
           <code class="ruby">    new_book.books[:author_last_name] = @authors[:last_name]</code>
         </li>
       
-        <li class="covered" data-hits="6" data-linenumber="14">
-          <span class="hits">6</span>
+        <li class="covered" data-hits="3" data-linenumber="14">
+          <span class="hits">3</span>
           
           <code class="ruby">    new_book.books[:title] = title</code>
         </li>
       
-        <li class="covered" data-hits="6" data-linenumber="15">
-          <span class="hits">6</span>
+        <li class="covered" data-hits="3" data-linenumber="15">
+          <span class="hits">3</span>
           
           <code class="ruby">    new_book.books[:publication_date] = date</code>
         </li>
       
-        <li class="covered" data-hits="6" data-linenumber="16">
-          <span class="hits">6</span>
+        <li class="covered" data-hits="3" data-linenumber="16">
+          <span class="hits">3</span>
           
           <code class="ruby">    @books &lt;&lt; new_book</code>
         </li>
@@ -235,7 +235,7 @@
         <li class="never" data-hits="" data-linenumber="18">
           
           
-          <code class="ruby">  </code>
+          <code class="ruby"></code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="19">
@@ -252,11 +252,11 @@
         <div class="source_table" id="39a2aa1319b98c8c534501bca4ee17aeb83da306">
   <div class="header">
     <h3>lib/book.rb</h3>
-    <h4><span class="green">100.0 %</span> covered</h4>
+    <h4><span class="red">66.67 %</span> covered</h4>
     <div>
       <b>12</b> relevant lines. 
-      <span class="green"><b>12</b> lines covered</span> and
-      <span class="red"><b>0</b> lines missed.</span>
+      <span class="green"><b>8</b> lines covered</span> and
+      <span class="red"><b>4</b> lines missed.</span>
     </div>
   </div>
   
@@ -287,8 +287,8 @@
           <code class="ruby">  def initialize(books)</code>
         </li>
       
-        <li class="covered" data-hits="11" data-linenumber="5">
-          <span class="hits">11</span>
+        <li class="covered" data-hits="3" data-linenumber="5">
+          <span class="hits">3</span>
           
           <code class="ruby">    @books = books</code>
         </li>
@@ -311,8 +311,8 @@
           <code class="ruby">  def author_first_name</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="9">
-          <span class="hits">1</span>
+        <li class="missed" data-hits="0" data-linenumber="9">
+          
           
           <code class="ruby">    @books[:author_first_name]</code>
         </li>
@@ -335,8 +335,8 @@
           <code class="ruby">  def author_last_name</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="13">
-          <span class="hits">1</span>
+        <li class="missed" data-hits="0" data-linenumber="13">
+          
           
           <code class="ruby">    @books[:author_last_name]</code>
         </li>
@@ -359,8 +359,8 @@
           <code class="ruby">  def title</code>
         </li>
       
-        <li class="covered" data-hits="6" data-linenumber="17">
-          <span class="hits">6</span>
+        <li class="missed" data-hits="0" data-linenumber="17">
+          
           
           <code class="ruby">    @books[:title]</code>
         </li>
@@ -383,8 +383,8 @@
           <code class="ruby">  def publication_date</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="21">
-          <span class="hits">1</span>
+        <li class="missed" data-hits="0" data-linenumber="21">
+          
           
           <code class="ruby">    @books[:publication_date].split.last</code>
         </li>
@@ -456,8 +456,8 @@
           <code class="ruby">  def initialize</code>
         </li>
       
-        <li class="covered" data-hits="3" data-linenumber="7">
-          <span class="hits">3</span>
+        <li class="covered" data-hits="2" data-linenumber="7">
+          <span class="hits">2</span>
           
           <code class="ruby">    @books = []</code>
         </li>
@@ -480,8 +480,8 @@
           <code class="ruby">  def add_to_collection(book)</code>
         </li>
       
-        <li class="covered" data-hits="4" data-linenumber="11">
-          <span class="hits">4</span>
+        <li class="covered" data-hits="3" data-linenumber="11">
+          <span class="hits">3</span>
           
           <code class="ruby">    @books &lt;&lt; book</code>
         </li>
@@ -506,11 +506,11 @@
         <div class="source_table" id="86aa33bf86b9e48b1f0b0d7db2f6c1a7514ec13a">
   <div class="header">
     <h3>test/book_test.rb</h3>
-    <h4><span class="green">100.0 %</span> covered</h4>
+    <h4><span class="red">50.0 %</span> covered</h4>
     <div>
       <b>20</b> relevant lines. 
-      <span class="green"><b>20</b> lines covered</span> and
-      <span class="red"><b>0</b> lines missed.</span>
+      <span class="green"><b>10</b> lines covered</span> and
+      <span class="red"><b>10</b> lines missed.</span>
     </div>
   </div>
   
@@ -565,8 +565,8 @@
           <code class="ruby">  def test_exist</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="9">
-          <span class="hits">1</span>
+        <li class="missed" data-hits="0" data-linenumber="9">
+          
           
           <code class="ruby">    book = Book.new({author_first_name: &quot;Harper&quot;, author_last_name: &quot;Lee&quot;, title: &quot;To Kill a Mockingbird&quot;, publication_date: &quot;July 11, 1960&quot;})</code>
         </li>
@@ -577,8 +577,8 @@
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="11">
-          <span class="hits">1</span>
+        <li class="missed" data-hits="0" data-linenumber="11">
+          
           
           <code class="ruby">    assert_instance_of Book, book</code>
         </li>
@@ -601,14 +601,14 @@
           <code class="ruby">  def test_author_first_name</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="15">
-          <span class="hits">1</span>
+        <li class="missed" data-hits="0" data-linenumber="15">
+          
           
           <code class="ruby">    book = Book.new({author_first_name: &quot;Harper&quot;, author_last_name: &quot;Lee&quot;, title: &quot;To Kill a Mockingbird&quot;, publication_date: &quot;July 11, 1960&quot;})</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="16">
-          <span class="hits">1</span>
+        <li class="missed" data-hits="0" data-linenumber="16">
+          
           
           <code class="ruby">    assert_equal &quot;Harper&quot;, book.author_first_name</code>
         </li>
@@ -631,14 +631,14 @@
           <code class="ruby">  def test_author_last_name</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="20">
-          <span class="hits">1</span>
+        <li class="missed" data-hits="0" data-linenumber="20">
+          
           
           <code class="ruby">    book = Book.new({author_first_name: &quot;Harper&quot;, author_last_name: &quot;Lee&quot;, title: &quot;To Kill a Mockingbird&quot;, publication_date: &quot;July 11, 1960&quot;})</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="21">
-          <span class="hits">1</span>
+        <li class="missed" data-hits="0" data-linenumber="21">
+          
           
           <code class="ruby">    assert_equal &quot;Lee&quot;, book.author_last_name</code>
         </li>
@@ -661,14 +661,14 @@
           <code class="ruby">  def test_title</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="25">
-          <span class="hits">1</span>
+        <li class="missed" data-hits="0" data-linenumber="25">
+          
           
           <code class="ruby">    book = Book.new({author_first_name: &quot;Harper&quot;, author_last_name: &quot;Lee&quot;, title: &quot;To Kill a Mockingbird&quot;, publication_date: &quot;July 11, 1960&quot;})</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="26">
-          <span class="hits">1</span>
+        <li class="missed" data-hits="0" data-linenumber="26">
+          
           
           <code class="ruby">    assert_equal &quot;To Kill a Mockingbird&quot;, book.title</code>
         </li>
@@ -691,14 +691,14 @@
           <code class="ruby">  def test_publication_date</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="30">
-          <span class="hits">1</span>
+        <li class="missed" data-hits="0" data-linenumber="30">
+          
           
           <code class="ruby">    book = Book.new({author_first_name: &quot;Harper&quot;, author_last_name: &quot;Lee&quot;, title: &quot;To Kill a Mockingbird&quot;, publication_date: &quot;July 11, 1960&quot;})</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="31">
-          <span class="hits">1</span>
+        <li class="missed" data-hits="0" data-linenumber="31">
+          
           
           <code class="ruby">    assert_equal &quot;1960&quot;, book.publication_date</code>
         </li>
@@ -723,11 +723,11 @@
         <div class="source_table" id="9be80f4ea91e1242d7681f76f1fd3805b9b65327">
   <div class="header">
     <h3>test/library_test.rb</h3>
-    <h4><span class="green">100.0 %</span> covered</h4>
+    <h4><span class="red">74.19 %</span> covered</h4>
     <div>
-      <b>30</b> relevant lines. 
-      <span class="green"><b>30</b> lines covered</span> and
-      <span class="red"><b>0</b> lines missed.</span>
+      <b>31</b> relevant lines. 
+      <span class="green"><b>23</b> lines covered</span> and
+      <span class="red"><b>8</b> lines missed.</span>
     </div>
   </div>
   
@@ -830,32 +830,32 @@
           <code class="ruby">  def test_add_to_collection</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="17">
-          <span class="hits">1</span>
+        <li class="missed" data-hits="0" data-linenumber="17">
+          
           
           <code class="ruby">    dpl = Library.new</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="18">
-          <span class="hits">1</span>
+        <li class="missed" data-hits="0" data-linenumber="18">
+          
           
           <code class="ruby">    charlotte_bronte = Author.new({first_name: &quot;Charlotte&quot;, last_name: &quot;Bronte&quot;})</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="19">
-          <span class="hits">1</span>
+        <li class="missed" data-hits="0" data-linenumber="19">
+          
           
           <code class="ruby">    jane_eyre = charlotte_bronte.add_book(&quot;Jane Eyre&quot;, &quot;October 16, 1847&quot;)</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="20">
-          <span class="hits">1</span>
+        <li class="missed" data-hits="0" data-linenumber="20">
+          
           
           <code class="ruby">    expected = dpl.add_to_collection(jane_eyre)</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="21">
-          <span class="hits">1</span>
+        <li class="missed" data-hits="0" data-linenumber="21">
+          
           
           <code class="ruby">    assert_instance_of Book, expected.first.first</code>
         </li>
@@ -965,40 +965,52 @@
         <li class="covered" data-hits="1" data-linenumber="39">
           <span class="hits">1</span>
           
+          <code class="ruby">    require &#39;pry&#39;; binding.pry</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="40">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="41">
+          
+          
           <code class="ruby">    assert_equal &quot;Jane Eyre&quot;, expected[0][0].title</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="40">
-          <span class="hits">1</span>
+        <li class="missed" data-hits="0" data-linenumber="42">
+          
           
           <code class="ruby">    assert_equal &quot;Villette&quot;, expected[0][1].title</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="41">
-          <span class="hits">1</span>
+        <li class="missed" data-hits="0" data-linenumber="43">
+          
           
           <code class="ruby">    assert_equal &quot;To Kill a Mockingbird&quot;, expected[2][0].title</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="42">
-          
-          
-          <code class="ruby">  end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="43">
-          
-          
-          <code class="ruby"></code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="44">
           
           
-          <code class="ruby"></code>
+          <code class="ruby">  end</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="45">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="46">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="47">
           
           
           <code class="ruby">end</code>

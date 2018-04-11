@@ -36,6 +36,8 @@ class LibraryTest < Minitest::Test
 
     expected = dpl.books
 
+    require 'pry'; binding.pry
+
     assert_equal "Jane Eyre", expected[0][0].title
     assert_equal "Villette", expected[0][1].title
     assert_equal "To Kill a Mockingbird", expected[2][0].title
