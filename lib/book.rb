@@ -19,6 +19,5 @@ class Book
 
   def publication_date
     @books[:publication_date].split.last
-    require 'pry'; binding.pry
   end
 end
