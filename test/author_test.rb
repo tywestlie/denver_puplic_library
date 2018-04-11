@@ -20,7 +20,6 @@ class AuthorTest < Minitest::Test
     charlotte_bronte = Author.new({first_name: "Charlotte", last_name: "Bronte"})
     charlotte_bronte.add_book("Jane Eyre", "October 16, 1847")
     charlotte_bronte.add_book("Villette", "1853")
-
     assert_instance_of Book, charlotte_bronte.books.first
     assert_equal "Jane Eyre", charlotte_bronte.books[0].title
     assert_equal "Villette", charlotte_bronte.books[1].title
